@@ -1,0 +1,195 @@
+package firstPackage;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.io.*;
+
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.swing.*;
+
+public class WaveMotion implements ActionListener, KeyListener{
+
+	public JFrame frame;
+	public RenderPanel renderPanel;
+	public Timer timer = new Timer(15, this);
+	
+	public WaveMotion()
+	{
+		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+		renderPanel = new RenderPanel();
+		renderPanel.setFocusable(true);
+		renderPanel.addKeyListener(this);
+		
+		frame = new JFrame("Wave Motion -- Created by Shane");
+		frame.setSize(500, 420);
+		frame.setResizable(false);
+		frame.setLocation(dim.width/2 - frame.getWidth()/2, dim.height/2 - frame.getHeight()/2 );
+		
+		// Label stuff
+		JLabel image = new JLabel();
+		// Put objects on the panel.
+		renderPanel.add(image);
+		
+		// place the panel on the frame / window.
+		// Figure out how to change the program windows Icon.
+		
+		frame.add(renderPanel);
+		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+		timer.start();
+		
+		// Change the Icon of the program.
+		// "C:/Users/Shane/Documents/Java Projects++/Images/1up.ico"
+		frame.setIconImage(new ImageIcon("C:/Users/Shane/Documents/Java Projects++/Images/rainbow.png").getImage());
+	}
+	
+	public void keyPressed(KeyEvent e)
+	{
+		int keyCode = e.getKeyCode();
+		System.out.println(keyCode);
+		
+		if(keyCode == KeyEvent.VK_ESCAPE)
+		{
+			// Close the program.
+			System.exit(0);
+		}
+		else
+		{
+			System.out.println("You pressed the Key: " + KeyEvent.getKeyText(keyCode));
+			e.consume();
+		}
+		
+	}
+	
+    public void keyReleased(KeyEvent e) 
+    {
+    	int keyCode = e.getKeyCode();
+    	System.out.println("Released: " + KeyEvent.getKeyText(keyCode));
+    }
+
+    public void keyTyped(KeyEvent e) 
+    { 
+    	
+    }
+    
+	@Override
+	public void actionPerformed(ActionEvent arg0) 
+	{
+		renderPanel.repaint();
+		
+	}
+	
+	public static void playMusic()
+	{
+		try
+		{
+			File cur = new File("C:/Users/Shane/Documents/Java Projects++/Music/HBFS.wav");
+			
+			// Look at all the filenames in the current directory.
+			//for(String fileNames : cur.list()) System.out.println(fileNames);
+			Clip clip = AudioSystem.getClip();
+			clip.open(AudioSystem.getAudioInputStream(cur));
+			clip.start();
+			clip.addLineListener(new CloseClipWhenDone());
+			Thread.sleep(clip.getMicrosecondLength());
+		}
+		
+		catch(Exception e)
+		{
+			System.err.println(e.getMessage());
+		}
+	}
+		
+	public static void main(String [] args)
+	{
+		WaveMotion waveMotion = new WaveMotion();
+		playMusic();
+		
+	}
+}
+
+
+==
+package firstPackage;
+
+import javax.sound.sampled.Line;
+import javax.sound.sampled.LineEvent;
+import javax.sound.sampled.LineListener;
+
+public class CloseClipWhenDone implements LineListener
+{
+	@Override public void update(LineEvent event)
+    {
+        if (event.getType().equals(LineEvent.Type.STOP))
+        {
+            Line soundClip = event.getLine();
+            soundClip.close();
+             
+            //Just to prove that it is called...
+            System.out.println("Done playing: Harder Better Faster Stronger (8-bit)");
+            System.exit(0);
+        }
+    }
+}
+
+
+==
+package firstPackage;
+
+import java.awt.Color;
+import java.util.Random;
+import java.awt.Graphics;
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class RenderPanel extends JPanel
+{
+
+	public static int cur = Math.abs(new Random().nextInt(256));
+	public static int x =  Math.abs(new Random().nextInt(256));
+	public static int y =  Math.abs(new Random().nextInt(256));
+	
+	boolean CurisGreater = false;
+	boolean XisGreater = false;
+	boolean YisGreater = false;
+	
+	protected void paintComponent(Graphics gfx) 
+	{
+		super.paintComponent(gfx);
+		gfx.setColor(new Color(x,cur,y));
+		gfx.fillRect(0, 0, 500, 420);
+		
+		// X Value subset.
+		if (XisGreater && x >= 10)
+			x-=2;
+		else if(!XisGreater && x < 245)
+			x+=2;
+		else
+			XisGreater = !XisGreater;
+		
+		// Y 
+		if (YisGreater && y >= 10)
+			y-=2;
+		else if(!YisGreater && y < 245)
+			y+=1;
+		else
+			YisGreater = !YisGreater;
+		
+		// If statements for Cur counter.
+		if (CurisGreater && cur >= 10)
+			cur-=2;
+		else if(!CurisGreater && cur < 245)
+			cur+=3;
+		else
+			CurisGreater = !CurisGreater;
+		
+	}
+		
+}
+
+
+

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfd3158d-d6e7-49c3-8242-2655e8af9c73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/src/main/java/MenuPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/Wave-Motion-0.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/CloseClipWhenDone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/MenuPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/RenderPanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/WaveMotion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/RainbowIcon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/Zelda-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/blueSword.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/dragonKing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/harkonBlade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/hpbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/hylianShield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/linkSS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/majMask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/pikachu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/pokSpriteSheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/poksquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/rainbow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/redShield(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/redShield.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/scroll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/shieldIcon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/simpsons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/images/waterTile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/classes/music/HBFS.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wave Motion/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/RainbowIcon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/RainbowIcon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/Zelda-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/Zelda-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/blueSword.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/blueSword.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/dragonKing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/dragonKing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/harkonBlade.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/harkonBlade.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/hpbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/hpbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/hylianShield.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/hylianShield.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/linkSS.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/linkSS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/majMask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/majMask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/pikachu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/pikachu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/pokSpriteSheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/pokSpriteSheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/poksquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/poksquare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/rainbow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/rainbow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/redShield(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/redShield(1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/redShield.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/redShield.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/scroll.png" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/scroll.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/shieldIcon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/shieldIcon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/simpsons.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/simpsons.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Images/waterTile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/resources/images/waterTile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion/bin/firstPackage/CloseClipWhenDone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion/bin/firstPackage/MenuPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion/bin/firstPackage/RenderPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion/bin/firstPackage/WaveMotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion/src/firstPackage/CloseClipWhenDone.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/java/CloseClipWhenDone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion/src/firstPackage/MenuPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion/src/firstPackage/RenderPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/java/RenderPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Motion/Wave Motion/src/firstPackage/WaveMotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wave Motion/src/main/java/WaveMotion.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Wave-Motion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wave-Motion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wave-Motion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wave-Motion" type="462c0819:PsiDirectoryNode" />
+              <item name="Wave Motion" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545669752809" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfd3158d-d6e7-49c3-8242-2655e8af9c73" name="Default Changelist" comment="" />
+      <created>1545669653157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545669653157</updated>
+      <workItem from="1545669654563" duration="109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="109000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4680851" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

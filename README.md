@@ -1,5 +1,6 @@
 # Wave-Motion
-Fun Graphical program made in 2017
+Wave-Motion - A fun graphical program I made in 2017 to explore creating java GUI programs involving JFrame and JSwing.  
+Music is also integrated to the program and flashing of graphical colors can be controlled through keyboard input.
 
 -- Involves funny 8-bit music & crazy seizuristic flashing colours -- <br>
 -- Change colour transitioning speed using the UP & DOWN arrow keys --

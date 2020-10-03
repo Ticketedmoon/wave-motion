@@ -4,3 +4,5 @@
 target/
 *.jar
 .idea/
+META-INF/
+*.iml

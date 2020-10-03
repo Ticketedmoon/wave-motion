@@ -1,11 +1,8 @@
-import org.apache.commons.io.FileUtils;
+package launcher;
 
-import javax.imageio.ImageIO;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import javax.sound.sampled.FloatControl;
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Dimension;
+import java.awt.Image;
+import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -13,6 +10,17 @@ import java.awt.event.KeyListener;
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import javax.imageio.ImageIO;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.FloatControl;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.Timer;
+import panels.MenuPanel;
+import panels.RenderPanel;
+import utils.ClipManager;
 
 public class WaveMotion implements ActionListener, KeyListener {
 
@@ -20,7 +28,7 @@ public class WaveMotion implements ActionListener, KeyListener {
 	public RenderPanel renderPanel;
 	public MenuPanel menuPanel;
 	public Timer timer = new Timer(15, this);
-	// Set up the transition speed methods with timer object rather than the i counter in RenderPanel.java.
+	// Set up the transition speed methods with timer object rather than the i counter in panels.RenderPanel.java.
 	
 	public WaveMotion() throws IOException {
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
@@ -132,7 +140,7 @@ public class WaveMotion implements ActionListener, KeyListener {
 			FloatControl gainControl = (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
 			gainControl.setValue(-10.0f);
 			clip.start();
-			clip.addLineListener(new CloseClipWhenDone());
+			clip.addLineListener(new ClipManager());
 			Thread.sleep(clip.getMicrosecondLength());
 		}
 		

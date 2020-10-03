@@ -1,3 +1,5 @@
+package panels;
+
 import java.awt.Color;
 import java.util.Random;
 import java.awt.Graphics;
